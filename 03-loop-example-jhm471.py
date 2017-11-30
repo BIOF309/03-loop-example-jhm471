@@ -5,7 +5,9 @@
 
 
 # While loop example to count the number of words spoken in 10 seconds.
-# Python needs to be reset before running the program successively to ensure correct timing. 
+# Python needs to be reset before running the program successively to ensure correct timing.
+# The following packages need to be installed: 1) pyaudio 2) google-api-python-client 
+# 3) FLAC (free lossless audio codec) on some systems such as Raspberry Pi
 
 # Import packages for speech recognition and time.
 import speech_recognition as sr
